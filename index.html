@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fabrica de Projetos Ágeis</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
-    
+    <header class="fixed top-0 left-0 w-full bg-blue-50 shadow z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-end items-center h-16">
+            <ul class="flex space-x-6">
+              <li><a href="#disciplina" class="text-gray-700">Disciplina</a></li>
+              <li><a href="#empresa" class="text-gray-700">Empresa</a></li>
+              <li><a href="#projeto" class="text-gray-700">Projeto</a></li>
+              <li><a href="#membros" class="text-gray-700">Membros</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div class="max-w-7xl mx-auto mt-25 bg-blue-50 p-6 rounded-xl shadow">
+        <h2 class="text-2xl font-semibold mb-2 text-gray-800 text-center" id="disciplina">Disciplina</h2>
+        <p class="text-indigo-900 text-center">
+            Texto 1
+        </p>
+      </div>
+
+      <div class="max-w-7xl mx-auto mt-25 bg-blue-50 p-6 rounded-xl shadow">
+        <h2 class="text-2xl font-semibold mb-2 text-gray-800 text-center" id="empresa">Empresa</h2>
+        <p class="text-indigo-900 text-center">
+          Texto 2
+        </p>
+      </div>
+
+      <div class="max-w-7xl mx-auto mt-25 bg-blue-50 p-6 rounded-xl shadow">
+        <h2 class="text-2xl font-semibold mb-2 text-gray-800 text-center" id="projeto">Projeto</h2>
+        <p class="text-indigo-900 text-center">
+          Texto 3
+        </p>
+      </div>
+
+      <section class="max-w-7xl mx-auto mt-16 px-4 mb-20">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10" id="membros">Membros</h2>
+      
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+          <div class="bg-blue-50 p-6 rounded-xl shadow text-center">
+            <h2>Pedro Monteiro</h2>
+            <img src="./assets/images/pedro.jpg" alt="Pedro" class="mx-auto rounded-lg mb-4 w-50 h-50 object-cover">
+            <p class="text-gray-700">Desenvolvedor Front-End</p>
+          </div>
+      
+          <div class="bg-blue-50 p-6 rounded-xl shadow text-center">
+            <h2>Giulio Rafael</h2>
+            <img src="./assets/images/giulio.jpg" alt="Giulio" class="mx-auto rounded-lg mb-4 w-50 h-50 object-cover">
+            <p class="text-gray-700">Designer UI/UX</p>
+          </div>
+      
+          <div class="bg-blue-50 p-6 rounded-xl shadow text-center">
+            <h2>Jhuan Gustavo</h2>
+            <img src="https://via.placeholder.com/150" alt="Jhuan" class="mx-auto rounded-lg mb-4 w-50 h-50 object-cover">
+            <p class="text-gray-700">Desenvolvedor Back-End</p>
+          </div>
+        </div>
+      </section>
 </body>
 </html>
